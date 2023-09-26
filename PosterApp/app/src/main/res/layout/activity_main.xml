@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#929C93"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="228dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="238dp"
+                android:layout_height="204dp"
+                android:layout_margin="25dp"
+                android:layout_marginStart="-19dp"
+                app:srcCompat="@drawable/bmw_xm_2023" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:background="#9BBC92"
+                android:text="BMW XM 2023"
+                android:textSize="35sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="243dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:layout_marginStart="-19dp"
+                app:srcCompat="@drawable/mers" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="95dp"
+                android:layout_weight="1"
+                android:background="#E8D1D1"
+                android:text="Mercedes"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="256dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="-19dp"
+                android:layout_marginStart="15dp"
+                android:rotation="360"
+                android:rotationX="360"
+                android:rotationY="-360"
+                app:srcCompat="@drawable/bentls" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#4A4949"
+                android:text="Bentley Continental Gt"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:layout_marginTop="45dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

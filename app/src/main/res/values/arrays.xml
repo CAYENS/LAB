@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="instruments">
+    <item>guitar</item>
+    <item>drum</item>
+    <item>keyboard</item>
+    <!-- Добавьте другие инструменты по мере необходимости -->
+</string-array>
+</resources>

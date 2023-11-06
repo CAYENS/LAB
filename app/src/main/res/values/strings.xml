@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DZ</string>
+    <string name="button_clicked_once">Кнопка нажата</string>
+    <string name="button_clicked_thrice">Вы нажали 3 раза на кнопку</string>
+</resources>
